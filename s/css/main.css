@@ -8,10 +8,6 @@ h1 {
 	margin-bottom: .3em;
 }
 
-ul {
-	list-style-type: none;
-}
-
 .team img{
 	width: 245px;
 }
@@ -32,10 +28,8 @@ ul {
 
 .details .label{
 	margin-bottom: 20px;
-}
-
-.hero-unit{
-	margin-top: 50px;
+	font-size: 22px;
+	line-height: 1;
 }
 
 .heading div{
@@ -45,7 +39,7 @@ ul {
 }
 .app-details{
 	font-size: 18px;
-	padding: 40px;
+	padding: 40px 40px 0 40px;
 	line-height: 1.6em;
 }
 
@@ -59,6 +53,7 @@ h3{
 }
 .team {
 	font-size: 16px;
+	padding:0 40px;
 	line-height: 1.6em;
 }
 .team label{
@@ -68,4 +63,8 @@ h3{
 .team p{
 	padding: 10px 60px 0 0;
 	margin-bottom: 40px;
+}
+
+.row-fluid {
+	padding: 10px 0;
 }

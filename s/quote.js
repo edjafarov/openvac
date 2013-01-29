@@ -25,7 +25,7 @@ quota(Math.round(Math.random()*quotas.length), quotas)();
 function setTwitAndBlockquota(text){
 	var blockquotaEl = Sizzle(".share blockquote p")[0];
 	blockquotaEl.innerHTML = text;
-	var tweet = text +  " #js #kiev via @debitoor team http://git.io/YK-J4Q";
+	var tweet = text +  " #js #kiev via @debitoor team";
 	var parent = Sizzle(".share")[0];
 	var iframe = Sizzle(".share iframe")[0];
 	if(!parent || !iframe) {

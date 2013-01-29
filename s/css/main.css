@@ -72,7 +72,7 @@ h3{
 a.skype {
 	display: inline-block;
 	padding-left: 20px;
-	background: url("s/img/skype-icon.png") no-repeat left center;
+	background: url("../img/skype-icon.png") no-repeat left center;
 }
 
 .you-will li, .will-work li{
